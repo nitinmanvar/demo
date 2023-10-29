@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/webtechi/public_html/subdomains/demo.careerinfoway.com
+    - /bin/cp * $DEPLOYPATH
